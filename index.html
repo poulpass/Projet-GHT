@@ -1,34 +1,204 @@
-<!doctype html>
-<html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>GHT</title>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
-    <title>GHT Ariège</title>
-  </head>
-  <body>
-    
-<nav class="navbar navbar-expand-lg navbar-light">
-
-    <a class="navbar-brand" href="#" alt="">GHT</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navabarNav aria-expanded="false aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active"></li>
-        </ul>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"><img src="images/ght.jpg" style="width:7%"></a>
+            </div>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"> CHIVA</a></li>
+                <li><a href="#"> CHAC</a></li>
+                <li><a href="#"> TARASCON</a></li>
+                <li><a href="#"> AX LES THERMES</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    </br>
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title"></h4>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal"> Qui sommes nous</button>
+                        </br>
+                        <button type="button" class="btn btn-link"> Petite présentation
+                        </button>
+                    </a>
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content-->
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Mieux nous connaître</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p> <img src="images/hopital.jpg" style="width:50%"></p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="collapse1" class="panel-collapse collapse in">
+                <div class="panel-body">Les établissements publics parties à la présente convention établissent un projet médico-soignant partagé permettant aux patients du tenitoire un égal accès à des soins sécurisés et de qualité, grâce à une stratégie de prise en charge commune et graduée </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </br>
+    </br>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-2" style="background-color:white;">
+                <div class="container">
+                    <div class="media">
+                        <div class="media-center">
+                            <img src="https://image.flaticon.com/icons/svg/806/806800.svg" class="media-object" style="width:70px">
+                        </div>
+                       </br>
+                        <div class="media-body">
+                            <h4 class="media-heading">Marchés Publics</h4>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-center">
+                            <img src="https://image.flaticon.com/icons/png/512/510/510943.png" class="media-object" style="width:70px">
+                        </div>
+                        </br>
+                        </br>
+                        </br>
+                        <div class="media-body">
+                            <h4 class="media-heading">Offres d'emploi</h4>
+                        </div>
+                    </div>
+                    <div class="media">
+                        <div class="media-center">
+                            <img src="https://image.flaticon.com/icons/svg/23/23811.svg" class="media-object" style="width:70px">
+                        </div>
+                        </br>
+                        </br>
+                        </br>
+                        <div class="media-body">
+                            <h4 class="media-heading">Droits du patient</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3" style="background-color:white;">
+                <div class="container">
+                    <ul class="nav nav-tabs">
+                        <li><a data-toggle="tab" href="#offres"> OFFRES DE SOIN</a></li>
+                        <li><a data-toggle="tab" href="#annuaire"> ANNUAIRE</a></li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="offres" class="tab-pane fade in active">
+                            <div class="container">
+                              <div id="cancerologie" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/31/31792.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading">CANCEROLOGIE</h4>
+                                    </div>
+                                </div>
+                                <div id="chirurgie" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/69/69564.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading">CHIRURGIE</h4>
+                                    </div>
+                                </div>
+                                <div id="geriatrie" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/27/27445.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading">GERIATRIE</h4>
+                                    </div>
+                                </div>
+                                <div id="maternite" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/27/27888.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading"> MATERNITÉ</h4>
+                                    </div>
+                                </div>
+                                <div id="medecine" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/png/512/285/285136.png" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading"> MÉDECINE</h4>
+                                    </div>
+                                </div>
+                                <div id="pediatrie" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/88/88098.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading"> PÉDIATRIE</h4>
+                                    </div>
+                                </div>
+                                <div id="urgences" class="media">
+                                    <div class="media-left">
+                                        <img src="https://image.flaticon.com/icons/svg/25/25296.svg" class="media-object" style="width:60px">
+                                    </div>
+                                    <div class="media-body">
+                                        </br>
+                                        <h4 class="media-heading"> URGENCES</h4>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      </br>
+                        <div id="annuaire" class="tab-pane fade">
+                            <div class="container">
+                                <form action="/action_page.php">
+                                    <div id="recherche" class="input-group" style="width:25%">
+                                        <input type="text" class="form-control" placeholder=" recherche par offres de soin" name="search">
+                                        <div class="input-group-btn">
+                                            <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </br>
+            <div class="col-sm-6" style="background-color:grey;">
+                <img src="images/ariege.jpg" style="width: 100%">
+            </div>
+        </div>
     </div>
 
-</nav>
+</body>
 
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
 </html>
