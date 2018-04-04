@@ -107,12 +107,60 @@ body, html{
 	}
 	
 
-
-
 }
 
 .row {
 
-    margin-right: -25px;
     margin-left: -8px;
+}
+
+
+#cancerologie,
+#chirurgie,
+#geriatrie,
+#maternite,
+#medecine,
+#pediatrie,
+#urgences {
+    border-style: solid;
+    border-color: #0091ff;
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+#annuaire,
+#recherche {
+    margin-right: 70% margin-left: 5%;
+}
+
+
+
+
+.boutonRond{
+	height: 100px;
+	width: 100px;
+	border-radius: 100% !important;
+	background-color: #0091ff;
+	padding-top: 20px;
+}
+.boutonRond:hover{
+	background-color: #0069d9;
+
+}
+
+
+.flexCol{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.boutonTaille{
+	height: 60px; 
+}
+
+.wildWidth{
+	width: 100%;
 }
