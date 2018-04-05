@@ -59,6 +59,10 @@ body, html{
 	border-color: #0069d9;
 }
 
+.nomarges{
+	padding: 0px !important;
+}
+
 .navfull{
 	width: 200%;
 }
