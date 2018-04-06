@@ -1,42 +1,538 @@
-.media-object {
-    margin-top: 12%;
-    width: 177%;
+body, html{
+	width: 100%;
+	font-size: 100%;
 }
 
-.modal-dialog {
+.logo_max{
+	width: 200px;
+	margin-top: -50px;
+}
+
+.logo_min{
+	height: 30px;
+}
+
+.logoCHAC{
+	margin-right: 20px;
+}
+
+.navigation, .navbar{
+	background-color: #4792b2 !important;
+	height: 60px;
+}
+
+.titre{
+	padding-left: 25px;
+	color: white;
+	background-color: #4792b2;
+	margin: 0px;
+}
+
+.h2g2{
+	font-size: 165%;
+	background-color: #4792b2;
+	margin: 0px;
+	color: white;
+	padding-left: 250px;
+}
+
+.flexRow{
+	display: flex;
+	flex-direction: row;
+}
+
+.navTypo{
+	color: white;
+	font-size: 150%;
+	white-space: nowrap;
+}
+
+
+.navbtn{
+	width: 25%;
+	height: 50px;
+	background-color: #4792b2;
+	border: none;
+	border-radius: 0px;
+	border-right: solid;
+	border-width: 1px;
+	border-color: #0069d9;
+}
+
+
+
+.navfull{
+	width: 200%;
+}
+
+@media (max-width: 990px) {
+	.h2g2{
+		
+		padding-left: 0px;
+	}
+	.logo_max{
+		
+		margin-top: 0px;
+	}
+
+	.logo_min{
+		height: 25px
+	}
+
+	.navTypo{
+		font-size: 100%;
+	}
+
+	.navfull{
+		width: 100%;
+	}
+
+}
+
+@media (max-width: 600px) {
+	.h2g2{
+		font-size: 130%;
+	}
+
+	.navTypo{
+		font-size: 60%;
+		text-align: center;
+		margin: auto;
+	}
+
+	.logo_min{
+		display: none;
+	}
+	
+	.btn, .nabvtn{
+		height: 30px;
+	}
+	
+
+}
+
+.row {
+
+    margin-left: -8px;
+}
+
+
+#cancerologie,
+#chirurgie,
+#geriatrie,
+#maternite,
+#medecine,
+#pediatrie,
+#urgences {
+    border-style: solid;
+    border-color: #0091ff;
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+#annuaire,
+#recherche {
+    margin-right: 70%; margin-left: 5%;
+}
+
+
+
+
+.boutonRond{
+	height: 100px;
+	width: 100px;
+	border-radius: 100% !important;
+	background-color: #0091ff;
+	padding-top: 20px;
+}
+.boutonRond:hover{
+	background-color: #0069d9;
+
+}
+
+.boutonMarche{
+	color: white
+}
+
+.flexCol{
+	display: flex;
+	flex-direction: column;
+}
+
+
+.boutonTaille{
+	height: 60px; 
+}
+
+.wildWidth{
+	width: 100%;
+}
+
+
+
+.fa-handshake, .fa-building, .fa-check{
+	font-size: 60px;
+}
+
+#menu2{
+	padding: 5px;
+}
+
+#menu1, #menu2{
+	margin: 0px;
+	border: solid;
+	border-width: 1px;
+	padding: 0px;
+}
+
+.tuile{
+	width: 100%;
+
+}
+
+.nopad{
+	padding: 0px;
+}
+
+.map{
+	position: absolute;
+	width: 100%;
+	height:auto;
+}
+
+.map2{
+	width: 100%;
+}
+
+#carte{
+	padding: 0px;
+}
+
+#ico_saintLouis{
+	position: absolute;
+	z-index: 2;
+	top: 77%;
+	left: 55%;
+	color: red;
+	font-size: 20px;
+}
+
+#ico_foix{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	color: blue;
+	font-size: 20px;
+}
+
+#ico_lavelanet{
+	position: absolute;
+	z-index: 2;
+	top: 52%;
+	left: 60%;
+	color: orange;
+	font-size: 20px;
+}
+
+#ico_pamiers{
+	position: absolute;
+	z-index: 2;
+	top: 38%;
+	left: 52%;
+	color: purple;
+	font-size: 20px;
+}
+
+#ico_stJeandeVerges{
+	position: absolute;
+	z-index: 2;
+	top: 43%;
+	left: 51%;
+	color: green;
+	font-size: 20px;
+}
+
+#ico_stGirons{
+	position: absolute;
+	z-index: 2;
+	top: 35%;
+	left: 20%;
+	color: indigo;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.modalMieuxConnaitre{
+	width: 90%;
+	height: 75%;
+}
+
+.modalMax{
+	height: 100%;
+}
+
+.imgModale{
+	margin-right: 15px;
+}
+
+.boutonModal{
+	width: 150px;
+	margin-bottom: 15px;
+}
+
+
+
+
+
+body,
+html {
     width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .modal-content {
-    height: 95%;
+    font-size: 100%;
+}
+
+.logo_max {
+    width: 200px;
+    margin-top: -50px;
+}
+
+.logo_min {
+    height: 30px;
+}
+
+.logoCHAC {
+    margin-right: 20px;
+}
+
+.navigation,
+.navbar {
+    background-color: #4792b2 !important;
+    height: 60px;
+}
+
+.titre {
+    padding-left: 25px;
+    color: white;
+    background-color: #4792b2;
+    margin: 0px;
+}
+
+.h2g2 {
+    font-size: 165%;
+    background-color: #4792b2;
+    margin: 0px;
+    color: white;
+    padding-left: 250px;
+}
+
+.flexRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.navTypo {
+    color: white;
+    font-size: 150%;
+    white-space: nowrap;
+}
+
+
+.navbtn {
+    width: 25%;
+    height: 50px;
+    background-color: #4792b2;
+    border: none;
     border-radius: 0px;
-    margin-left: 26px;
-    width: 152%;
-  }
+    border-right: solid;
+    border-width: 1px;
+    border-color: #0069d9;
+}
 
-  .text{
-    padding-left: 33%;
-    margin-top: 12%;
-  }
+.nomarges {
+    padding: 0px !important;
+}
 
-  #boutton{
-    margin-left: 35%;
-    margin-right: 43%;
-  }
+.navfull {
+    width: 200%;
+}
 
-  .close{
-    margin-top: -6%;
-  }
+@media (max-width: 990px) {
+    .h2g2 {
 
-  .legal{
-    margin-top: 5%;
-  }
- .public{
-    width: 113%;
-    height: 51%;
-    margin-top: 24%;
-    margin-left: 37%;
+        padding-left: 0px;
+    }
+    .logo_max {
+
+        margin-top: 0px;
+    }
+
+    .logo_min {
+        height: 25px
+    }
+
+    .navTypo {
+        font-size: 100%;
+    }
+
+    .navfull {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .h2g2 {
+        font-size: 130%;
+    }
+
+    .navTypo {
+        font-size: 60%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .logo_min {
+        display: none;
+    }
+
+    .btn,
+    .nabvtn {
+        height: 30px;
+    }
+}
+
+.row {
+
+    margin-left: -8px;
+}
+
+
+.boutonRond {
+    height: 100px;
+    width: 100px;
+    border-radius: 100% !important;
+    background-color: #0091ff;
+    padding-top: 20px;
+}
+
+.boutonRond:hover {
+    background-color: #0069d9;
+}
+
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boutonTaille {
+    height: 60px;
+}
+
+#cancerologie,
+#chirurgie,
+#geriatrie,
+#maternite,
+#medecine,
+#pediatrie,
+#urgences {
+    border-style: solid;
+    border-color: #0091ff;
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+    margin-left: 1%;
+}
+
+#annuaire,
+#recherche {
+    margin-right: 70%; margin-left: 5%;
+}
+
+
+
+
+.boutonRond {
+    height: 100px;
+    width: 100px;
+    border-radius: 100% !important;
+    background-color: #0091ff;
+    padding-top: 20px;
+}
+
+.boutonRond:hover {
+    background-color: #0069d9;
+}
+
+
+.flexCol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.boutonTaille {
+    height: 60px;
+}
+
+.wildWidth {
+    width: 100%;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+#annuaire,
+#recherche {
+    margin-right: 70%; margin-left: 5%;
+}
+
+#osa {
+    margin-bottom: 20%;
+}
+
+.card li {
+    background-color: #0091ff;
+    color: white;
+    font-weight: bold;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: white;
+}
+
+
+
+.card-header{
+  padding: 0px;
+}
+
+
+
+.card{
+	width: 100% !important;
+	border: none;
+}
+
+.noBorder, .card-header{
+	border: none;
+}
+
+.mention{
+    float: right;
+    cursor: pointer;
 }

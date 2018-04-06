@@ -1,279 +1,547 @@
 <!doctype html>
-<html lang="en">
+<html lang="fr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-    crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="style.css">
-
-  <title>GHT Ariège</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>GHT Ariège</title>
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg" style="background-color: #4792b2">
-
-    <a class="navbar-brand" href="#" alt="" style="color: white">GHT</a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navabarNav" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Page d'accueil
-            <span class="sr-only"></span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Qui sommes-nous?</a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="#">Annuaire des offres de soins</a>
-        </li>
-
-      </ul>
-    </div>
-  </nav>
-
-  <div id="mieux">
-
-    <button type="button" id="mymodal" class="btn btn-primary" data-toggle="modal" data-target="#mieuxnousconnaitre" data-whatever="Mieux nous connaître">Mieux nous connaître</button>
-
-  </div>
-  <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" id="mieuxnousconnaitre" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content"style="margin-left: 5%;">
-        <div class="modal-body">
-
-          <p>
-            <h1>Mieux nous connaître</h1>
-          </p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-
-          <!-- Left-aligned -->
-          <div class="media">
-            <div class="media-left">
-              <img src="chiva-centre-hospitalier-du-val-d-ariege.jpg" class="media-object">
+    <h1 class="h2g2">Groupement Hospitalier de Territoire des Pyrénées Ariègoises</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#" href="#"><img src="img/logo_ght.png" class="logo_max">
+                
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse row" id="navbarNav">
+                <ul class="navbar-nav navfull">
+                    <li class="nav-item row navfull">
+                        <a class="btn btn-primary navbtn" href="#">
+                            <div class="flexRow trait"><img src="img/logo_chiva.jpg" class="logo_min">
+                                <p class="navTypo ">CHIVA</p>
+                            </div>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="btn btn-primary navbtn" href="#">
+                            <div class="flexRow trait">
+                                <img src="img/logo_chac.png" class="logo_min">
+                                <p class="navTypo">CHAC</p>
+                            </div>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="btn btn-primary navbtn" href="#">
+                            <div class="flexRow trait"><img src="img/logo_tarascon.png" class="logo_min">
+                                <p class="navTypo">Jules Rousse</p>
+                            </div>
+                            <span class="sr-only"></span>
+                        </a>
+                        <a class="btn btn-primary navbtn" href="#">
+                            <div class="flexRow"><img src="img/logo_ax.png" class="logo_min">
+                                <p class="navTypo">St Louis</p>
+                            </div>
+                            <span class="sr-only"></span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="media-body">
-              <divclass="media-heading">
-                <div class="text">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum."</p>
-
+        </div>
+    </nav>
+    </br>
+    <div class="container-fluid">
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Mieux"> Mieux nous connaitre</button>
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        <button type="button" class="btn btn-link"> Petite présentation
+                        </button>
+                    </a>
+                    <!-- <div class="modal fade" id="Mieux" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- Modal content--
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    
+                                    <h4 class="modal-title">Mieux nous connaître</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        <div class="media">
+                                            <div class="media-center">
+                                                <img src="images/hopital.jpg" style="width:50%" class="media-object">
+                                            </div>
+                                            </br>
+                                            <div class="media-body">
+                                                <h4 class="media-heading">Les établissements publics parties à la présente convention établissent un projet médico-soignant partagé permettant aux patients du tenitoire un égal accès à des soins sécurisés et de qualité, grâce à une stratégie de prise en charge commune et graduée</h4>
+                                            </div>
+                                    </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <div class="modal fade bd-example-modal-lg" id="Mieux" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg modalMieuxConnaitre" role="document">
+                            <div class="modal-content modalMax">
+                                <div class="modal-body ">
+                                    <div class="modal-header">
+                                        <p>
+                                            <h1>Mieux nous connaître</h1>
+                                        </p>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <!-- Left-aligned -->
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="img/chiva-centre-hospitalier-du-val-d-ariege.jpg" class="media-object imgModale">
+                                        </div>
+                                        <div class="media-body">
+                                            <divclass="media-heading">
+                                                <div class="text">
+                                                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="btn btn-primary mx-auto boutonModal" data-dismiss="modal">Retour</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-          </div>
         </div>
-        <button type="button" id="boutton" class="btn btn-primary" data-dismiss="modal">Retour</button>
-
-      </div>
+        <br>
+        <div id="collapse1" class="panel-collapse collapse in">
+            <div class="panel-body">Les établissements publics parties à la présente convention établissent un projet médico-soignant partagé permettant aux patients du tenitoire un égal accès à des soins sécurisés et de qualité, grâce à une stratégie de prise en charge commune et graduée </div>
+        </div>
     </div>
-  </div>
-  </div>
-
-  </div>
-  </div>
-
-  <div id="marche">
-
-    <button type="button" id="mymodal" class="btn btn-primary" data-toggle="modal" data-target="#marchepublic" data-whatever="marché public">Marché public</button>
-
-  </div>
-  <!-- Modal -->
-  <div class="modal fade" id="marchepublic" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content"style="width: 107%;height: 50%;margin-top: 22%;margin-left: 72%;padding-left: 6%;border-radius: 10%;">
-        <div class="modal-body">
-
-          <p>
-            <h1>Marché Public</h1>
-          </p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"style="margin-top: -15%;">
-            <span aria-hidden="true">&times;</span>
-          </button>
-
-          <a href="http://www.chiva-chpo.fr/accueil-chiva-2/marches-publics.html"><input type="button" class="btn btn-primary" name="Chiva "value="CHIVA" style="margin-left: 30%;margin-top: 8%;width:30%;"/></a>          
-        </div>
-        <button type="button" id="boutton" class="btn btn-primary" data-dismiss="modal" style="margin-bottom: 15%;padding-left: 2%;">Retour</button>
-        </div>
-      </div>
-      </div>
+    <br>
+    <div id="collapse1" class="panel-collapse collapse in">
+        <div class="panel-body">Les établissements publics parties à la présente convention établissent un projet médico-soignant partagé permettant aux patients du tenitoire un égal accès à des soins sécurisés et de qualité, grâce à une stratégie de prise en charge commune et graduée </div>
     </div>
-  
-  </div>
-  </div>
-  </div>
-
-  <div id="emploi">
-
-    <button type="button" id="mymodal" class="btn btn-primary" data-toggle="modal" data-target="#Offre_demploi" data-whatever="Offre_demploi">Offre d'emploi</button>
-
-  </div>
-  <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" id="Offre_demploi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content" style="width: 87%;margin-left: 35%;height: 61%;margin-top:10%;border-radius:6%;padding-left: 2%;">
-        <div class="modal-body">
-
-          <p>
-            </p><h1>Offre d'emploi</h1>
-          <p></p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"style="margin-top: -9%;">
-            <span aria-hidden="true">×</span>
-          </button>
-
-            <a href="http://www.chiva-chpo.fr/accueil-chiva/1-mieux-nous-connaitre/travailler-au-chiva/les-offres-d-emploi.html"><input class="btn btn-primary" name="Chiva " value="CHIVA" style="margin-left: 16%;margin-top: 5%;width:16%;" type="button"></a>          
-            <a href="http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-medicales.aspx"><input class="btn btn-primary" name="Chac" value="CHAC" style="margin-left: 29%;margin-top: 5%;width:16%;" type="button"></a>          
-            <a href="http://www.ch-axlesthermes.fr/PBCPPlayer.asp?ID=1324701"><input class="btn btn-primary" name="Ax" value="AX" style="margin-left: 16%;margin-top: 5%; width:16%;" type="button"></a>          
-            <a href="http://www.hopital-tarascon09.com/PBCPPlayer.asp?ID=532483"><input class="btn btn-primary" name="Tarascon" value="TARASCON" style="margin-left: 29%;margin-top: 5%;width:16%;padding-left: 1%;" type="button"></a>          
-
-        </div>
-        <button type="button" id="boutton" class="btn btn-primary" data-dismiss="modal" style="margin-bottom: 10%;">Retour</button>
-
-      </div>
-        
-      </div>
     </div>
-  </div>
-  </div>
-  </div>
-  </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="icones" class="col-md-2">
+                <div id="marche" class="media flexCol wildWidth">
+                    <div class="mx-auto text-center wildWidth">
+                        <button type="button" class="btn boutonRond " data-toggle="modal" data-target="#myModal1">
+                            <div class="boutonMarche">
+                                <i class="fas fa-handshake"></i>
+                                <!-- <img src="https://image.flaticon.com/icons/svg/806/806800.svg" class="boutonTaille"> -->
+                            </div>
+                        </button>
+                        <p class="text-center ">
+                            Marchés Publics
+                        </p>
+                    </div>
+                    <!-- 
+                    <button type="button" class="btn" data-toggle="modal" data-target="#myModal1">
+                      <div class="boutonMarche"><img src="https://image.flaticon.com/icons/svg/806/806800.svg" class="media-object"  style="width:50px"></div>
+                       Marchés Publics
+                    </button> -->
+                    <!-- Modal -->
+                    <!-- Modal content-->
+                    <!--           <div class="modal-content">
+                                <div class="modal-header">
+                                    
+                                    <h4 class="modal-title">Marchés publics</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Rendez vous sur le site du CHIVA</p>
+                                    <a href="http://www.c         <div class="modal fade" id="myModal1" role="dialog">
 
-  <div id="droit">
+            <div class="modal-dialog">
 
-    <button type="button" id="mymodal" class="btn btn-primary" data-toggle="modal" data-target="#droitdupatient" data-whatever="droitdupatient">Droit du patient</button>
+              <!-- Modal -->
+                    <div class="modal fade" id="myModal1" role="dialog">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Marchés publics</h4>
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>
+                                        <h1>Marché Public</h1>
+                                    </p>
+                                </div>
+                                <a href="http://www.chiva-chpo.fr/accueil-chiva-2/marches-publics.html" class="mx-auto">
+                                    <input type="button" class="btn btn-primary boutonModal" name="Chiva " value="CHIVA">
+                                </a>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mx-auto">
+                        <button type="button" class="btn boutonRond" data-toggle="modal" data-target="#emploi">
+                            <div class="boutonMarche">
+                                <i class="fas fa-building"></i>
+                                <!-- <img src="https://image.flaticon.com/icons/png/512/510/510943.png" class="media-object" style="width:50px"> -->
+                            </div>
+                            <br>
+                        </button>
+                    </div>
+                    <p class="mx-auto text-center"> Offres d'emploi </p>
+                    <!-- Modal -->
+                    <!--         <div class="modal fade" id="myModal2" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content--
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        
+                                        <h4 class="modal-title">Offres d'emploi</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h4>Rendez vous sur les centres hospitaliers pour consulter les offres d'emploi !</h4>
+                                        <p> CHIVA </p>
+                                        <a href="http://www.chiva-chpo.fr/accueil-chiva/1-mieux-nous-connaitre/travailler-au-chiva/les-offres-d-emploi.html" target="_blank">http://www.chiva-chpo.fr/accueil-chiva/1-mieux-nous-connaitre/travailler-au-chiva/les-offres-d-emploi.html</a>
+                                        <p> CHAC </p>
+                                        <a href="http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-medicales.aspx" target="_blank">http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-medicales.aspx</a>
+                                        </br>
+                                        <a href="http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-non-medicales.aspx" target="_blank">http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-non-medicales.aspx"</a>
+                                        <p> Hôpital Jules Rousse de Tarascon </p>
+                                        <a href="http://www.hopital-tarascon09.com/PBCPPlayer.asp?ID=532483" target="_blank">http://www.hopital-tarascon09.com/PBCPPlayer.asp?ID=532483</a>
+                                        <p> Hôpital Saint Louis d'Ax les thermes </p>
+                                        <div class="alert alert-danger">
+                                            <strong>Attention!</strong> Cette page n'existe pas encore pour l'hôpital Saint Louis
+                                        </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    <div class="modal fade" id="emploi" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog " role="document">
+                            <div class="modal-content">
+                                <div class="modal-body">
+                                    <div class="modal-header">
+                                        <p>
+                                            <h1>Offre d'emploi</h1>
+                                        </p>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">×</span>
+                                        </button>
+                                    </div>
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col">
+                                                <a href="http://www.chiva-chpo.fr/accueil-chiva/1-mieux-nous-connaitre/travailler-au-chiva/les-offres-d-emploi.html" class="mx-auto">
+                                                    <input class="btn btn-primary wildWidth" name="Chiva " value="CHIVA" type="button">
+                                                </a>
+                                                <hr>
+                                                <a href="http://www.ch-ariege-couserans.fr/ABC/Le-CHAC-recrute/Offres-medicales.aspx" class="mx-auto">
+                                                    <input class="btn btn-primary wildWidth" name="Chac" value="CHAC" type="button">
+                                                </a>
+                                            </div>
+                                            <div class="col">
+                                                <a href="http://www.ch-axlesthermes.fr/PBCPPlayer.asp?ID=1324701">
+                                                    <input class="btn btn-primary wildWidth" name="Ax" value="AX" type="button">
+                                                </a>
+                                                <hr>
+                                                <a href="http://www.hopital-tarascon09.com/PBCPPlayer.asp?ID=532483">
+                                                    <input class="btn btn-primary wildWidth" name="Tarascon" value="TARASCON" type="button">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="button" id="boutton" class="btn btn-primary boutonModal mx-auto" data-dismiss="modal">Retour</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="droits" class="media">
+                    <div class="mx-auto text-center">
+                        <button type="button" class="btn boutonRond" data-toggle="modal" data-target="#myModal3">
+                            <div class="boutonMarche">
+                                <i class="fas fa-check"></i>
+                                <!-- <img src="https://image.flaticon.com/icons/svg/23/23811.svg" class="media-object boutonTaille"> -->
+                            </div>
+                            <br>
+                        </button>
+                        <p class="mx-auto text-center">Droits du patient</p>
+                        <!-- <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal3"><img src="https://image.flaticon.com/icons/svg/23/23811.svg" class="media-object" style="width:50px"> Droits du patient</button> -->
+                        <!-- Modal -->
+                        <div class="modal fade" id="myModal3" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Droits du Patient</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Rendez vous sur le site pour connaître les droits et engagements du patient</p>
+                                        <a href="http://www.chiva-chpo.fr/accueil-chiva-2/droits-de-l-usager.html" target="_blank">"http://www.chiva-chpo.fr/accueil-chiva-2/droits-de-l-usager.html"</a>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-primary" data-dismiss="modal">Fermer</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-  </div>
-  <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" id="droitdupatient" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-
-          <p>
-            <h1>Droit du patient</h1>
-          </p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-
-          <!-- Left-aligned -->
-          <div class="media">
-            <div class="media-left">
-              <img src="chiva-centre-hospitalier-du-val-d-ariege.jpg" class="media-object">
             </div>
-            <div class="media-body">
-              <divclass="media-heading">
-                <div class="text">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum."</p>
-
+            <div id="osa" class="col-md-4" style="background-color:white;">
+                <div class="container">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu1">Offres de soins</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#menu2">Annuaire</a>
+                        </li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div id="menu1" class="container tab-pane active">
+                            <br>
+                           
+                            <div id="accordion1">
+                                <div class="card noBorder" style="width: 18rem;">
+                                    <div class="card noBorder">
+                                        <div class="card-header noBorder" id="headingOne">
+                                            <h5 class="mb-0">
+        <button class="btn btn-link wildWidth" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="false" aria-controls="collapseOne">
+          <li id="cancerologie" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/31/31792.svg">&nbsp;Cancérologie</li> 
+        </button>
+      </h5>
+                                        </div>
+                                        <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                                            <div class="card-body">
+                                                <ul class="list-group">
+                                                    <li class="list-group-item">Cras justo odio</li>
+                                                    <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                    <li class="list-group-item">Morbi leo risus</li>
+                                                    <li class="list-group-item">Porta ac consectetur ac</li>
+                                                    <li class="list-group-item">Vestibulum at eros</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingTwo">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          <li id="chirurgie" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/69/69564.svg">&nbsp;Chirurgie</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingThree">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          <li id="geriatrie" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/27/27445.svg">&nbsp;Gériatrie</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingfour">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+          <li id="maternite" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/27/27888.svg">&nbsp;Maternité</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapsefour" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingfive">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+          <li id="medecine" class="list-group-item"><img src="https://image.flaticon.com/icons/png/512/285/285136.png">&nbsp;Médecine</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapsefive" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingsix">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+          <li id="pediatrie" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/88/88098.svg">&nbsp;Pédiatrie</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapsesix" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingseven">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+          <li id="psychiatrie" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/809/809919.svg">&nbsp;Psychiatrie</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapseseven" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-header" id="headingeight">
+                                                <h5 class="mb-0">
+        <button class="btn btn-link wildWidth collapsed" data-toggle="collapse" data-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+          <li id="urgences" class="list-group-item"><img src="https://image.flaticon.com/icons/svg/25/25296.svg">&nbsp;Urgences</li>
+        </button>
+      </h5>
+                                            </div>
+                                            <div id="collapseeight" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                                <div class="card-body">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item">Cras justo odio</li>
+                                                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                                                        <li class="list-group-item">Morbi leo risus</li>
+                                                        <li class="list-group-item">Porta ac consectetur ac</li>
+                                                        <li class="list-group-item">Vestibulum at eros</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="menu2" class="container tab-pane fade">
+                            <br>
+                            
+                            <form class="form-inline" action="/action_page.php">
+                                <input class="form-control" type="text" placeholder="Recherche offres de soin">
+                                <button class="btn btn-basic" type="submit">Recherche</button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
             </div>
-
-          </div>
-        </div>
-        <button type="button" id="boutton" class="btn btn-primary" data-dismiss="modal">Retour</button>
-
-      </div>
-    </div>
-  </div>
-  </div>
-  </div>
-  </div>
-
-  <div id="mention">
-
-    <button type="button" id="mymodal" class="btn btn-primary" data-toggle="modal" data-target="#mentionlegal" data-whatever="mentionlegal">Mention légal</button>
-
-  </div>
-  <!-- Modal -->
-  <div class="modal fade bd-example-modal-lg" id="mentionlegal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-    aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-      <div class="modal-content">
-        <div class="modal-body">
-
-          <p>
-            <h1>Mention Légal</h1>
-          </p>
-
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-
-          <!-- Left-aligned -->
-          <div class="media">
-
-            <div class="media-body">
-              <divclass="media-heading">
-                <div class="legal">
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum."</p>
-
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum."</p>
-
-                  <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum."</p>
-
+            <div id="carte" class="col-md-6">
+                <div class="map">
+                    <img class="map2" src="img/mapAriège.png">
+                    <a id="ico_saintLouis" data-toggle="collapse" href="#collapseExample" data-trigger="hover" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    <i class="fas fa-map-marker-alt"  title="Saint Louis"></i>
+                  </a>
+                    <i class="fas fa-map-marker-alt" id="ico_foix" title="Foix"></i>
+                    <i class="fas fa-map-marker-alt" id="ico_lavelanet" title="Lavelanet"></i>
+                    <i class="fas fa-map-marker-alt" id="ico_pamiers" title="Pamiers"></i>
+                    <i class="fas fa-map-marker-alt" id="ico_stJeandeVerges" title="St Jean de Verges"></i>
+                    <div id="ico_stGirons">
+                        <i class="fas fa-map-marker-alt" title="St.Girons"></i>
+                    </div>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                    </div>
                 </div>
             </div>
-
-          </div>
         </div>
-        <button type="button" id="boutton" class="btn btn-primary" data-dismiss="modal">Retour</button>
+    </div>
 
-      </div>
+<!-- Large modal -->
+<div data-toggle="modal" data-target="#mention" class="mention">Mention Légales</div>
+<div class="modal fade bd-example-modal-lg" id="mention"tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <h1>Mention Légales</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>   
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    
     </div>
   </div>
-  </div>
-  </div>
-  </div>
+</div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+
+
+
 </body>
 
 </html>
