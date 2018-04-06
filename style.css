@@ -59,9 +59,7 @@ body, html{
 	border-color: #0069d9;
 }
 
-.nomarges{
-	padding: 0px !important;
-}
+
 
 .navfull{
 	width: 200%;
@@ -155,6 +153,11 @@ body, html{
 }
 
 
+.boutonMarche{
+	color: white
+}
+
+
 .flexCol{
 	display: flex;
 	flex-direction: column;
@@ -167,4 +170,126 @@ body, html{
 
 .wildWidth{
 	width: 100%;
+
+}
+
+
+
+.fa-handshake, .fa-building, .fa-check{
+	font-size: 60px;
+}
+
+#menu2{
+	padding: 5px;
+}
+
+#menu1, #menu2{
+	margin: 0px;
+	border: solid;
+	border-width: 1px;
+	padding: 0px;
+}
+
+.tuile{
+	width: 100%;
+
+}
+
+.nopad{
+	padding: 0px;
+}
+
+.map{
+	position: absolute;
+	width: 100%;
+	height:auto;
+}
+
+.map2{
+	width: 100%;
+}
+
+#carte{
+	padding: 0px;
+}
+
+#ico_saintLouis{
+	position: absolute;
+	z-index: 2;
+	top: 77%;
+	left: 55%;
+	color: red;
+	font-size: 20px;
+}
+
+#ico_foix{
+	position: absolute;
+	z-index: 2;
+	top: 50%;
+	left: 50%;
+	color: blue;
+	font-size: 20px;
+}
+
+#ico_lavelanet{
+	position: absolute;
+	z-index: 2;
+	top: 52%;
+	left: 60%;
+	color: orange;
+	font-size: 20px;
+}
+
+#ico_pamiers{
+	position: absolute;
+	z-index: 2;
+	top: 38%;
+	left: 52%;
+	color: purple;
+	font-size: 20px;
+}
+
+#ico_stJeandeVerges{
+	position: absolute;
+	z-index: 2;
+	top: 43%;
+	left: 51%;
+	color: green;
+	font-size: 20px;
+}
+
+#ico_stGirons{
+	position: absolute;
+	z-index: 2;
+	top: 35%;
+	left: 20%;
+	color: indigo;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+.modalMieuxConnaitre{
+	width: 75%;
+	height: 75%;
+}
+
+.modalMax{
+	height: 100%;
+}
+
+.imgModale{
+	margin-right: 15px;
+}
+
+.boutonModal{
+	width: 150px;
+	margin-bottom: 15px;
+
 }
