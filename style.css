@@ -152,9 +152,11 @@ body, html{
 
 }
 
+
 .boutonMarche{
 	color: white
 }
+
 
 .flexCol{
 	display: flex;
@@ -168,6 +170,7 @@ body, html{
 
 .wildWidth{
 	width: 100%;
+
 }
 
 
@@ -288,4 +291,5 @@ body, html{
 .boutonModal{
 	width: 150px;
 	margin-bottom: 15px;
+
 }
