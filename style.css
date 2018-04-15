@@ -176,15 +176,6 @@ body, html{
 	font-size: 60px;
 }
 
-#menu2{
-	padding: 5px;
-}
-
-#menu1, #menu2{
-	margin: 0px;
-	
-	padding: 0px;
-}
 
 .tuile{
 	width: 100%;
@@ -364,6 +355,21 @@ html {
     width: 200%;
 }
 
+    .visibleOnTab{
+		display: none;
+	}
+
+	.visibleOnDesc{
+		display: block;
+	}
+.navBis{
+
+}
+
+.full{
+	height: 100%;
+}
+
 @media (max-width: 990px) {
     .h2g2 {
 
@@ -385,6 +391,20 @@ html {
     .navfull {
         width: 100%;
     }
+
+    .visibleOnTab{
+		display: block;
+	}
+
+	.visibleOnDesc{
+		display: none;
+	}
+
+    .toutlesboutons{
+    	font-size: 10px;
+    	background-color: red;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -406,6 +426,8 @@ html {
     .navbtnperso {
         height: 30px;
     }
+
+
 }
 
 .row {
@@ -684,3 +706,14 @@ html {
 	padding: 15px;
 	padding-right: 50px;
 }
+
+.toutlesboutons{
+	background-color: #0091ff;
+	width: 100%;
+	border: none;
+	margin-bottom: 5px;
+	color: white;
+	font-size: 20px;
+	border-radius: 3px;
+}
+
